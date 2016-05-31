@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tarena.allrun.widget.MyLinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:animation="http://schemas.android.com/apk/res-auto"
+    xmlns:shade="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/first_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.tarena.allrun.widget.CenterLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+  <com.tarena.allrun.widget.AnimationView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      animation:sleep_time="200"
+      animation:images="@array/animationImages"
+      >
+      
+  </com.tarena.allrun.widget.AnimationView>
+  <com.tarena.allrun.widget.ShadeView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      shade:text="运动伙伴 就用酷跑"
+      shade:text_size="16"
+      shade:text_color="#FF005e81"
+      shade:shade_color="#FF888888"      
+      />
+   </com.tarena.allrun.widget.CenterLayout>   
+  
+
+</com.tarena.allrun.widget.MyLinearLayout>

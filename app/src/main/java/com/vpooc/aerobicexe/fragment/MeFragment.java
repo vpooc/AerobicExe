@@ -1,0 +1,27 @@
+package com.vpooc.aerobicexe.fragment;
+
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.vpooc.aerobicexe.R;
+
+public class MeFragment 
+extends Fragment{
+View view;
+	@Override
+public View onCreateView(LayoutInflater inflater, ViewGroup container,
+		Bundle savedInstanceState) {
+
+		try {
+			view=inflater.inflate(
+					R.layout.fragment_me, null);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return view;
+}
+}

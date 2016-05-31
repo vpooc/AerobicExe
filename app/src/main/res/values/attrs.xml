@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="AnimationView">
+        <attr name="sleep_time" format="float"></attr>
+        <attr name="images" format="reference"></attr>
+    </declare-styleable>
+<declare-styleable name="Shade">
+        <attr name="text" format="string"></attr>
+        <attr name="text_color" format="color"></attr>
+        <attr name="shade_color" format="color"></attr>
+        <attr name="text_size" format="float"></attr>
+    </declare-styleable>
+</resources>
