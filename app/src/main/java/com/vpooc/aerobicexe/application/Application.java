@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Process;
 import android.util.Log;
 
+import com.baidu.mapapi.SDKInitializer;
+
 import java.util.ArrayList;
 
 /**
@@ -27,6 +29,7 @@ public class Application extends android.app.Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        SDKInitializer.initialize(getApplicationContext());
         Log.i("TApplication", "oncreate");
         CrashHandler crashHandler=
                 new CrashHandler(this);

@@ -17,6 +17,15 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
 
 		try {
 			view=inflater.inflate(R.layout.fragment_sport, null);
+
+
+
+
+
+
+
+
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
